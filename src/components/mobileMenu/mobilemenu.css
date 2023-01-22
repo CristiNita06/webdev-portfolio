@@ -1,0 +1,12 @@
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  right: 100%;
+  transition: right 0.5s ease;
+  background-color: white;
+}
+
+.toggle-modal-visibility {
+  right: 0;
+}
