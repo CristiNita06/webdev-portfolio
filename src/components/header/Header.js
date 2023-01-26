@@ -33,7 +33,10 @@ export default function Header() {
           <div className={slice3}></div>
         </div>
       </div>
-      <MobileMenu showMobileMenu={showMobileMenu} />
+      <MobileMenu
+        showMobileMenu={showMobileMenu}
+        _showMobileMenu={_showMobileMenu}
+      />
 
       {/*Desktop Header*/}
       <div className="desktopMenuContainer">

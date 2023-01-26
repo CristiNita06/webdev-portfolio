@@ -4,9 +4,54 @@
   height: 100vh;
   right: 100%;
   transition: right 0.5s ease;
-  background-color: white;
+  background-color: var(--backgroundColor1);
+  /* background-color: rgba(66, 66, 66, 0.9); */
+  color: var(--fontColor1);
+  opacity: 0.95;
+}
+
+.letsconnect {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+
+.contactThumbnailsContainer {
+  width: 70%;
+  margin: 0 auto;
+  min-width: 300px;
+}
+
+.contactThumbnailsContainer img {
+  width: 70%;
+}
+
+.contactThumbnailsContainer ul {
+  display: flex;
+  flex-direction: row;
+  /* padding: 2rem 4rem; */
+  padding: 2rem 15%;
+  justify-content: space-between;
 }
 
 .toggle-modal-visibility {
   right: 0;
+  /* background-color: rgba(66, 66, 66, 0.9); */
+  background-color: var(--backgroundColor1);
+}
+
+.linksContainer {
+  /* margin-left:50%; */
+  display: flex;
+  justify-content: center;
+}
+
+.linksContainer li {
+  padding: 1.3rem;
+  font-size: 1.3rem;
+}
+
+.aboutContainer li {
+  padding-top: 1.5rem;
+  font-weight: bold;
 }

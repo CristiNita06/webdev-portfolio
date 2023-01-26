@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   height: 50px;
+  background-color: var(--backgroundColor1);
 }
 
 .hamburger-container {
@@ -10,13 +11,10 @@
 }
 
 .slice {
-  border: 1.3px solid black;
+  border: 1.3px solid var(--fontColor1);
+  background-color: var(--fontColor1);
   width: 20px;
   margin: 5px;
-}
-
-.test {
-  background-color: red;
 }
 
 .slice-1-animation {

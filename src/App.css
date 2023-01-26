@@ -4,4 +4,16 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: var(--backgroundColor1);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Variables */
+:root {
+  --backgroundColor1: #252525;
+  --fontColor1: white;
 }
